@@ -1,0 +1,12 @@
+PAKET SOURCE CODE WIB–SES GROUP (TANPA DATA PRIBADI)
+
+Cara pakai:
+1. Ekstrak ZIP.
+2. Buka folder WIB_SES_GROUP_SOURCE di VS Code.
+3. Jalankan Claude Code atau baca README.md untuk menjalankan backend.
+4. Untuk mode demo, gunakan MULAI_DEMO.bat pada Windows.
+
+PENTING: Paket ringkas ini tidak menyertakan profil PDF WIB/SES atau spreadsheet kepengurusan.
+Untuk menggunakan fitur baca profil PDF, salin dokumen sesuai nama yang diminta aplikasi ke folder assets/.
+Untuk impor Excel, unggah secara manual dari aplikasi atau gunakan paket lengkap.
+Jangan anggap aplikasi lokal ini telah tersertifikasi, online multiadmin, atau terhubung ke Dukcapil.

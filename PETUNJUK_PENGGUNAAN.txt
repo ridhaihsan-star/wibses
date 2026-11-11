@@ -1,0 +1,33 @@
+WIB x SES GROUP — PETUNJUK MENJALANKAN APLIKASI (WINDOWS)
+==========================================================
+
+1. Ekstrak seluruh isi ZIP ke folder yang hanya dapat diakses petugas berwenang.
+2. Pastikan Python 3.11 atau lebih baru sudah terpasang. Internet dibutuhkan pada instalasi pertama.
+3. Klik dua kali MULAI_DEMO.bat untuk mencoba aplikasi dengan data contoh.
+   ATAU klik MULAI_OPERASIONAL.bat untuk memakai database operasional terpisah,
+   otomatis terisi 957 posisi bernama dari Excel sebagai DRAFT (belum disahkan).
+4. Browser akan mencoba membuka http://127.0.0.1:8765/
+   Jika tidak terbuka otomatis, ketik alamat tersebut di browser pada komputer yang sama.
+5. Akun awal dan kata sandi acak dibuat pertama kali dan disimpan di:
+       data_demo/AKUN_AWAL_RAHASIA.txt
+       data_operasional/AKUN_AWAL_RAHASIA.txt
+6. Login dengan akun yang diinginkan. Segera ubah password di menu Pengaturan.
+7. Data terbaru dimasukkan otomatis sebagai DRAFT pada penggunaan operasional pertama.
+   Untuk impor Excel tambahan, pilih Data Pengurus > Impor Excel.
+   Gunakan file sumber di folder import_sumber. Semua hasil impor berstatus DRAFT.
+8. Setelah verifikasi biodata, NIK, KTP, dan bukti administrasi,
+   Ketua Umum WIB mengesahkan SK melalui profil masing-masing pengurus.
+   Direksi SES Group mengesahkan SK SES dari menu Penugasan SES.
+9. Hentikan aplikasi dengan CTRL+C di jendela terminal. Jangan hanya menutup browser.
+
+PENTING
+- Jangan jalankan dua mode secara bersamaan pada port 8765.
+- Database demo dan operasional disimpan di folder TERPISAH.
+- Untuk cadangan, hentikan aplikasi dan salin SELURUH folder data_operasional
+  (termasuk berkas .local_secret) ke tempat terenkripsi yang aman.
+- Jangan pernah memublikasikan port 8765 langsung ke internet.
+- Integrasi Dukcapil belum tersedia; format 16 digit bukan bukti NIK asli.
+- SK PDF merupakan keluaran administrasi internal, belum merupakan dokumen
+  bertanda tangan elektronik tersertifikasi.
+- Penggunaan publik/nasional membutuhkan audit keamanan, penetapan kewenangan,
+  legalitas, kebijakan privasi, server HTTPS, dan proses persetujuan resmi.

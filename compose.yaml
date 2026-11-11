@@ -1,0 +1,11 @@
+services:
+  wib-ses:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8765:8765"
+    environment:
+      WIB_DATA_DIR: /appdata
+      WIB_SEED_DEMO: "0"
+    volumes:
+      - ./data_operasional:/appdata
